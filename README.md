@@ -43,9 +43,9 @@ Follow these 4 straightforward steps to deploy PbxBot on Heroku:
 
 That's it! You've successfully deployed Pbx  on Heroku. Now scale dynos and start the bot!
 
-<h2>  ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 🚀</h2> 
-ᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ  ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/badmunda011/PBX_2.0"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center">
+    <a href="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Pbxbot-Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku"/></a>
+</p>
 
 ---
 
@@ -95,7 +95,7 @@ Pbxbot 2.0 can be deployed on any Linux VPS and terminal.
     ```
     > Now start the bot
     ```bash
-    ./start.sh
+    chmod +x ./start.sh && ./start.sh
     ```
     > Not press 'Ctrl + B' then 'D' to detatch from tmux and let your bot run in background.
 
