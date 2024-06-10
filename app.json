@@ -50,12 +50,12 @@
         },
         "PLUGINS_REPO": {
             "description": "Fillup the username/reponame of the plugins repo.",
-            "value": "Badhacker98/PbxPlugin",
+            "value": "badmunda011/PbxPlugin",
             "required": true
         },
         "DEPLOY_REPO": {
             "description": "Fillup the username/reponame of the deploy repo. Consider updating the default value with your own forked repo.",
-            "value": "Badhacker98/PBX_2.0",
+            "value": "badmunda011/PBX_2.0",
             "required": true
         }
     },
