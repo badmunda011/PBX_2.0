@@ -36,7 +36,7 @@ async def update_requirements(deploy: str, plugins: str) -> None:
             await runcmd(f"pip install {module}")
             print(f">> Installed Requirement: {module}")
     except Exception as e:
-        print(f"Error installing requirments: {str(e)}")
+        print(f"Error installing requirements: {str(e)}")
 
 
 asyncio.run(update_requirements(sys.argv[1], sys.argv[2]))
